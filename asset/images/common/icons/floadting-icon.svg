@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.333" height="67.807" viewBox="0 0 72.333 67.807">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="72.333" height="67.807" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Component_1_1" data-name="Component 1 – 1" clip-path="url(#clip-path)">
+    <path id="Path_1" data-name="Path 1" d="M181.5,205.833h58v41.833h-58Z" transform="translate(-180 -204.333)" fill="none" stroke="#fff" stroke-width="3"/>
+    <path id="Path_2" data-name="Path 2" d="M181.167,205.5l29.333,29,29-29" transform="translate(-180 -204.333)" fill="none" stroke="#fff" stroke-width="3"/>
+    <path id="Path_3" data-name="Path 3" d="M181.167,247.667l21-20.667" transform="translate(-180 -204.333)" fill="none" stroke="#fff" stroke-width="3"/>
+    <path id="Path_4" data-name="Path 4" d="M239.5,247.667l-21.333-21" transform="translate(-180 -204.333)" fill="none" stroke="#fff" stroke-width="3"/>
+    <path id="Path_5" data-name="Path 5" d="M190.417,251.25v7.583h38.25l10,9.75V258.167h12.167V214.083h-7.75" transform="translate(-180 -204.333)" fill="none" stroke="#fff" stroke-width="3"/>
+  </g>
+</svg>
