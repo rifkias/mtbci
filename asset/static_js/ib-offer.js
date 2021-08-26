@@ -453,7 +453,7 @@
                                   void 0 !== n && "" != n && e(n);
                               },
                               preferredCountries: [],
-                              utilsScript: "/static_js/utils.js",
+                              utilsScript: "/asset/static_js/utils.js",
                           };
                           "philippine_seminar_registration_form" == e && (s.onlyCountries = ["ph"]),
                               "demo_competition_form_2019_08_13" == e && (s.onlyCountries = telOnlyCountryList),
@@ -515,7 +515,7 @@
                                   void 0 !== n && "" != n && e(n);
                               },
                               preferredCountries: [],
-                              utilsScript: "/static_js/utils.js",
+                              utilsScript: "/asset/static_js/utils.js",
                           })),
                           "" != (t = $("#" + e + ' select[name="country_name"] option:selected')).val() && itiList[e].setCountry(t.data("country_iso_code"));
                           var i, o;

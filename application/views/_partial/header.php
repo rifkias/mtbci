@@ -18,7 +18,7 @@ foreach ($css as $value) {
 	if($value == 'library.min.css'){
 		echo '<link rel="stylesheet" href="'.base_url().'asset/static_css/'.$value.'">'.PHP_EOL;
 	}else{
-		echo '<link rel="stylesheet" type="text/css" href="'.base_url().'asset/static_css/'.$value.'">'.PHP_EOL;
+		echo '<link rel="stylesheet" type="text/css" href="'.base_url().'asset/static_css/'.$value.'?v=1">'.PHP_EOL;
 	}
 }
 ?>
@@ -83,7 +83,7 @@ a {
             <div class="col-md-6 col-12 header-top-right-menu text-nowrap header-top-parent-right">
                 <a class="d-none top-btn-1 btn btn-sm mr-1 header-mb-btn" href="account/live-account-f1"><i class="ti-user">&nbsp;</i>Akun Live </a>
                 <a class="d-none top-btn-2 btn btn-sm hide-768 mr-1" href="bonus/demo-account"><i class="ti-desktop">&nbsp;</i>Akun Demo </a>
-                <a class="hide-1200 btn btn-sm btn-navy btn-mymb mr-1" href="https://my.multibankfx.com/en/traders/login"><span class="small-M-logo"><img alt="" data-entity-type="" data-entity-uuid="" height="12px" src="{{asset('/images/common/icons/mymultibank_ico.png')}}" width="auto;" /> </span>&nbsp; LogIn</a>
+                <a class="hide-1200 btn btn-sm btn-navy btn-mymb mr-1" href="https://my.multibankfx.com/en/traders/login"><span class="small-M-logo"><img alt="" data-entity-type="" data-entity-uuid="" height="12px" src="<?php base_url(); ?>asset/images/common/icons/mymultibank_ico.png" width="auto;" /> </span>&nbsp; LogIn</a>
             </div>
         </div>
     </div>
@@ -459,3 +459,4 @@ a {
         </div>
     </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js" type="text/javascript"></script>
